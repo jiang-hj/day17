@@ -15,11 +15,15 @@
 		var btn = document.getElementById("trans-btn");
 		var result = document.getElementById("result");
 		function check(num) {
-			if (num >= 0)
-			{
-				return num % 1 === 0;
+			if (num !== "" && isNaN(num) === false) //判断输入的是否为数字
+			{				
+				if (num >= 0)
+				{
+					return num % 1 === 0;
+				}
 			}else
 			{
+				console.log("输入数字有错");
 				return false;
 			}
 		}
