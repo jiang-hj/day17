@@ -50,13 +50,11 @@
 				return tem;			
 			}else
 			{
-				alert("请输入非负整数");
+				return "请输入非零整数";
 			}				
 		}		
 		
-		btn.onclick = function() {				
-			// var arr = dec2bin(decNum.value);
-			// back(arr);
+		btn.onclick = function() {
 			result.innerHTML = dec2bin(decNum.value);
 		}// 实现党点击转化按钮时，将输入的十进制数字转化为二进制，并显示在result的p标签内
 // Some coding
