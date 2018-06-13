@@ -7,4 +7,4 @@
 <br>
 3的小游戏[demo](https://jiang-hj.github.io/day17/game.html)
 <br>
-乘法表[demo](https://jiang-hj.github.io/day17/Multiplication.html)
+乘法表[demo](https://jiang-hj.github.io/day17/multiplication.html)
